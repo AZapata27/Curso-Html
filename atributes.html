@@ -5,10 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>atributos de html</title>
+    <style>
+
+        .parrafo-1{
+            color: aqua;
+        }
+    </style>
 </head>
 <body>
     
 
+
+            <p class="parrafo-1"> texto casual para probrar clases de html </p>
+
+
+            <p id="parrafo_ID">Identificador atraves de una ID no se puede repetir y debe ser unico</p>
+
+            <p title="este es un ejemplo del atributto title"> Este es un tooltip de html</p>
+
+            <p id="parrafo_Data" data-ejemplo="Datos pasados por etiqueta">este es un ejempo de datos pasados en la etiqueta</p>
+
+
+
+            <script>
+
+                const p= document.getElementById('parrafo_ID');
+
+                console.log(p.textContent);
+
+                const p2= document.getElementById('parrafo_Data');
+
+                    console.log(p2.dataset.ejemplo);
+            </script>
+
+            
 
 
 
