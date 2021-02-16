@@ -18,7 +18,96 @@
                 <input type="submit" value="Submit si envia">
                 <button>Enviar Formulario</button>
 
+
+
+
+
     </form>
+
+    <form >
+
+                <h2>genero</h2>
+                <label >
+                    masculino
+
+                    <input type="radio" name="gender" value="masculino">
+                </label>
+                <label >
+                 femenino
+                    <input type="radio" name="gender" value="femenino">
+                </label>
+                <label >
+                  no binario
+
+                    <input type="radio" name="gender" value="nobinary">
+                </label>
+
+
+                <select name="lenguajes">
+
+                    <option value="html">html</option>
+                    <option value="html">css</option>
+                    <option value="html">js</option>
+                </select>
+    </form>
+
+    <form>
+        <fieldset>
+                <legend>Datos personales</legend>
+                <label for="name">Nombre</label>
+                <input id="name" placeholder="introduce tu nombre">
+                <label for="dir">direccion</label>
+                <input id="dir" placeholder="introduce tu direccion">
+
+
+
+        </fieldset>
+
+
+    </form>
+
+
+
+
+    <form action="enviar.html" method="GET">
+
+            <label for="name">name</label>
+            <input type="text" id="name" name="name">
+
+            <label for="surname">surname</label>
+            <input type="text" id="surname" name="surname">
+
+            <input type="submit" >
+
+
+
+
+
+
+
+    </form>
+
+
+
+    <form action="enviar.html" method="POST">
+
+        <label for="name">name</label>
+        <input type="text" id="name" name="name">
+
+        <label for="surname">surname</label>
+        <input type="text" id="surname" name="surname">
+
+        <input type="submit" >
+
+
+
+
+
+
+
+</form>
+
+
      
  </body>
  </html>
